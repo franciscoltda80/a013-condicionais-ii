@@ -1,13 +1,9 @@
-//código a ser reescrito
+//Ternário
 
-if(nome === "José"){
-	console.log("Oi, Zé!");
-} else {
-	console.log("Olá, "+nome);
-}
+let nome= prompt('Digite seu nome:').toUpperCase();
 
-if(idade >= 18){
-	console.log("pode tirar carteira de motorista!");
-} else {
-	console.log("Ainda não pode tirar carteira de motorista");
-}
+nome ==='José'? console.log('Oi Zé !'): console.log('Olá',nome)
+
+let idade= Number(prompt('Digite sua idade:'))
+
+idade>=18? console.log('Voce pode tirar carteira.'): console.log('Voce ainda não pode tirar a carteira.')

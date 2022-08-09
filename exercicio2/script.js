@@ -1,15 +1,26 @@
-let nacionalidade = prompt("digite aqui a nacionalidade").toLowerCase();
+//switch - case
 
-if(nacionalidade === "brasileira"){
-    console.log("a pessoa é do Brasil!");
-} else if(nacionalidade === "argentina"){
-    console.log("a pessoa é da Argentina!");
-} else if(nacionalidade === "uruguaia"){
-    console.log("a pessoa é do Uruguai!");
-} else if(nacionalidade === "chilena"){
-    console.log("a pessoa é do Chile!");
-} else if(nacionalidade === "colombiana"){
-    console.log("a pessoa é da Colômbia!");
-} else{
-    console.log("nacionalidade não encontrada")
-}
+let nacionalidade =Number (prompt("digite aqui a nacionalidade: \n1-brasileira \n2-argentina \n3- uruguaia \n4-chilena \n5-colombiana"))
+
+switch(nacionalidade){
+case 1 :
+        console.log('Voce nasceu no Brasil')
+        break;
+        
+        case 2:
+            console.log('Voce nasceu na Argentina')
+            break;
+            
+            case 3:
+                console.log('Voce nasceu no Uruguai')
+                break;
+
+                case 4:
+                    console.log('Voce nasceu no Chile')
+                    break;
+
+                    default:
+                        console.log('ESCOLHA UMA DAS OPCOES DISPONIVEIS')
+
+ }
+ 
